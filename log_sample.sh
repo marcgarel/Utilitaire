@@ -1,4 +1,10 @@
 #! /usr/bin/bash
+
+#MG
+#V1.0
+
+echo "Ceci un programme pour logger les prélèvement. Attention au titre, pensez à changer les titre en fonction des échatillons"
+
 read -p 'Entrez un titre: ' titre
 echo "$titre"
 
