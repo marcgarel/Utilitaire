@@ -25,6 +25,9 @@ read -p 'Entrez le volume échantilloné : ' parm2
 read -p 'Ecrire remarque: ' parm3
 var="$Nom: $Date : $heure : $mission : $i : $parm1 : $parm2 : $parm3"
 echo "$var" # etc.... avec ou sans mises en forme c'est a toi de voir
+echo "-----------------------------------"
+echo "Prêt pour un nouvelle échantillon"
+echo "-----------------------------------"
 done
 
 
