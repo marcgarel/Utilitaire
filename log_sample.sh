@@ -24,6 +24,7 @@ echo "$var2"
 
 for (( i=1; i<=$maxSample; i++))
 do
+heure=`date "+%H%M%S"`
 read -p "-----Prêt pour un nouvelle échantillon------"
 read -p 'Entrez le nom du paramètre échantillonné : ' parm1
 read -p 'Entrez votre nom : ' Nom
